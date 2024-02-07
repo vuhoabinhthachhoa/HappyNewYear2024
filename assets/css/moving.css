@@ -133,9 +133,10 @@ span.next:before {
   position: absolute;
   left: 50%;
   margin-left: -2px;
-  bottom: -110px;
+  bottom: -110px;;
 
 }
+
 
 .fire {
   width: 100%;
@@ -395,7 +396,7 @@ a.author {
 
 /* --------------- Button 71 ------------------ */
 .button-71 {
-  background-color: #0078d0;
+  background-color: #0078d2;
   border: 0;
   border-radius: 56px;
   color: #fff;

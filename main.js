@@ -1,7 +1,6 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 const body = document.body;
-const audio1 = $('#audio');
 
 const buttonToCountDown = () => {
   const countDown = `
@@ -33,14 +32,12 @@ const buttonToCountDown = () => {
     </svg>
   </div>
 </div>
-
 <audio id="audio" src="./assets/audio/Count_down_Sound.mp3"></audio>
-
 	`
   body.innerHTML = countDown;
   const linkElement = document.querySelector('link[href="./assets/css/button.css"]');
-  const audio2 = $('#audio');
-  audio2.play();
+  const audio = $('#audio');
+  audio.play();
   // Replace the href attribute with the new link
   linkElement.href = "./assets/css/count_down.css";
 }
@@ -79,15 +76,15 @@ const countDownToMoving = () => {
 </div>
 
 <button class="button-71" role="button">Click me!</button>
-
 <audio id="audio" src="./assets/audio/Happy_New_Year_ABBA.mp3"></audio>
 	`
   body.innerHTML = moving;
   const linkElement = document.querySelector('link[href="./assets/css/count_down.css"]');
-
+  
   // Replace the href attribute with the new link
   linkElement.href = "./assets/css/moving.css";
-  audio1.play();
+  const audio = $('#audio');
+  audio.play();
 }
 
 const movingToGift = () => {
@@ -99,9 +96,9 @@ const movingToGift = () => {
             <div class="envelope">
                 <div class="letter">
                     <div class="text">
-                        <strong>Hello bạn,</strong>
+                        <strong>.....</strong>
                         <p>
-                            Nhân dịp năm mới 2024, mình xin chúc bạn và gia đình một năm mới vui vẻ
+                            Nhân dịp năm mới 2024, xin chúc mọi người một năm mới vui vẻ
                             và thành đạt.
                         </p>
                     </div>
@@ -119,12 +116,15 @@ const movingToGift = () => {
             <div class="click"></div>   
         </div>
     </div>
+  <audio id="audio" src="./assets/audio/merry_christmas.mp3"></audio>
+
   `
     body.innerHTML = gift;
 
     const linkElement = document.querySelector('link[href="./assets/css/moving.css"]');
     linkElement.href = "./assets/css/gift.css";
-
+    const audio = $('#audio');
+    audio.play();
     //---------GIFT-------------
     const box = $('.gift-container');
     box.onclick = () => {
