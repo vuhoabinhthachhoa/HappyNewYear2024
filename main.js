@@ -75,7 +75,7 @@ const countDownToMoving = () => {
   </div>
 </div>
 
-<button class="button-71" role="button">Click me!</button>
+<button class="button-71" role="button" >Click me!</button>
 <audio id="audio" src="./assets/audio/Happy_New_Year_ABBA.mp3"></audio>
 	`
   body.innerHTML = moving;
@@ -96,10 +96,10 @@ const movingToGift = () => {
             <div class="envelope">
                 <div class="letter">
                     <div class="text">
-                        <strong>.....</strong>
+                        <strong></strong>
                         <p>
-                            Nhân dịp năm mới 2024, xin chúc mọi người một năm mới vui vẻ
-                            và thành đạt.
+                            Nhân dịp năm mới 2024, xin chúc bạn một năm mới vui vẻ
+                            và thành đạt trong cuộc sống.
                         </p>
                     </div>
                 </div>

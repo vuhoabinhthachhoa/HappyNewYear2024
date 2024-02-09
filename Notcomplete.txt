@@ -1,3 +1,5 @@
 vẫn bị lỗi responsive trên một số máy
 nhạc chúc mừng năm mới không chạy trên phone
 thiếu favicon
+nhạc chưa đồng bộ âm lượng
+
